@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Source+Code+Pro:ital,wght@0,300;1,300;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.header{
+    min-height: 90vh;
+    width: 100%;
+    background-image:  url('./car-bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+section{
+    width: 100%;
+}
+.logoText{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 40px;
+    /* padding-top: 2px; */
+}
+section nav {
+    display: flex;
+    grid: 500px;
+}
+.logo{
+    gap: 10px;
+    display: flex;
+    width: 100px;
+}
+.nav-links{
+    width: 725px;
+    padding-left: 680px;
+}
+.carIcon{
+    height: 50px;
+    width: 50px;
+    padding-left: 131px;
+}
+nav {
+padding: 30px;
+}
+
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    /* background-color: white; */
+    cursor: pointer;
+}
+.nav-links ul li:last-child{
+    background-color: #13a8d2;
+    padding: 11px 11px 13px 11px;
+
+}
+.nav-links ul li {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #00bcee;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.nav-links ul li:last-child:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.text-box h1{
+    font-size: 70px;
+    color: #00bcee;
+    padding-right: 500px;
+    padding-top: 40px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    margin: 14px;
+    color: #fff;
+    font-size: 40px;
+    padding-right: 864px;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #13a8d2;
+   
+    
+    
+    /* border: 1px solid #fff; */
+    padding: 12px 34px;
+    font-size: 20px;
+   
+    /* position: relative; */
+    cursor: pointer;
+    margin-top: 348px;
+    margin-left: 177px;
+   
+}
+.hero-btn:hover{
+    /* border: 1px solid #f44336; */
+    background: #fff;
+    transition: 1s; 
+    cursor: pointer;
+   
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 100px;
+    font-size: 15px;
+}
+.one{
+    color: #fff;
+    padding-top: 40px;
+    padding-left: 200px;
+}
+p:first-child{
+    color: #13a8d2;
+}
